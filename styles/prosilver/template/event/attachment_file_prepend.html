@@ -1,0 +1,16 @@
+<!-- IF _file.S_VIDEO -->
+	<dl class="file">
+		<dt>
+			<video controls width="420">
+				<source src="{_file.U_VIEW_LINK}" type="{_file.MIMETYPE}">
+				Sorry, your browser doesn't support embedded videos.
+			</video>
+		</dt>
+		<!-- IF _file.COMMENT --><dd><em>{_file.COMMENT}</em></dd><!-- ENDIF -->
+		<dd>
+			<a class="button button-icon-only" href="{_file.U_DOWNLOAD_LINK}" title="{_file.DOWNLOAD_NAME}"><i class="icon fa-download fa-fw" aria-hidden="true"></i></a>
+			{_file.DOWNLOAD_NAME}
+		</dd>
+		<dd>({_file.FILESIZE} {_file.SIZE_LANG}) {_file.L_DOWNLOAD_COUNT}</dd>
+	</dl>
+<!-- ENDIF -->
