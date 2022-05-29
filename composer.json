@@ -5,7 +5,7 @@
     "homepage": "",
     "version": "1.1.0",
     "time": "2022-05-22",
-    "license": "GPL-2.0",
+    "license": "GPL-2.0-only",
     "authors": [
         {
             "name": "mallaury",
