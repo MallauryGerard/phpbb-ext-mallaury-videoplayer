@@ -2,7 +2,7 @@
 
 ## Installation
 
-Copy the extension to phpBB/ext/custom/videoplayer
+Copy the extension to phpBB/ext/mallaury/videoplayer
 
 Go to "ACP" > "Customise" > "Extensions" and enable the "Video Attachment Player" extension.
 

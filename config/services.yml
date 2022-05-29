@@ -1,5 +1,5 @@
 services:
-    custom.videoplayer.listener:
-        class: custom\videoplayer\event\main_listener
+    mallaury.videoplayer.listener:
+        class: mallaury\videoplayer\event\main_listener
         tags:
             - { name: event.listener }

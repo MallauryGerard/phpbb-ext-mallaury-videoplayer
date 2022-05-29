@@ -3,12 +3,12 @@
  *
  * Video Attachment Player. An extension for the phpBB Forum Software package.
  *
- * @copyright (c) 2022, custom
+ * @copyright (c) 2022, mallaury
  * @license GNU General Public License, version 2 (GPL-2.0)
  *
  */
 
-namespace custom\videoplayer\event;
+namespace mallaury\videoplayer\event;
 
 /**
  * @ignore
